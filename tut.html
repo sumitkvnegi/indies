@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #333;
+        }
+        .container{
+            background-color: #666;
+            border: 5px solid red;
+            color: white;
+            margin-top: 20px;
+            padding: 40px 100px;
+            border-radius: 50%;
+            width: 210px;
+            display: inline-block;
+        }
+        h3{
+            text-transform: uppercase;
+            color: red;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        p{
+            text-transform: capitalize;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>this is heading</h3>
+        <img src="a2.png" width="200px">
+        <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id beatae consequuntur repudiandae iste reprehenderit dolore, consequatur provident, ipsa ratione perspiciatis deleniti commodi, alias quo omnis in ab minus similique sed.</p>
+    </div>
+    <div class="container">
+        <h3>this is heading</h3>
+        <img src="a1.png" width="200px">
+        <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id beatae consequuntur repudiandae iste reprehenderit dolore, consequatur provident, ipsa ratione perspiciatis deleniti commodi, alias quo omnis in ab minus similique sed.</p>
+    </div>
+    <div class="container">
+        <h3>this is heading</h3>
+        <img src="a3.png" width="200px">
+        <p id="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id beatae consequuntur repudiandae iste reprehenderit dolore, consequatur provident, ipsa ratione perspiciatis deleniti commodi, alias quo omnis in ab minus similique sed.</p>
+    </div>
+        
+</body>
+</html>
